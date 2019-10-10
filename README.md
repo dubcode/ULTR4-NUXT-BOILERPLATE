@@ -46,6 +46,9 @@ $ npm run generate
 # Pull this repository
 To work on updates and changes to the master branch ULTR4-NBP
 
+## init
+$ git init
+
 ## pull
 $ git pull https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
 
