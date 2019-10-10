@@ -13,7 +13,31 @@ $ Includes
  - [LazyLoad](https://github.com/hilongjw/vue-lazyload)
  - [ESLint](https://github.com/hilongjw/vue-lazyload)
 
-# Setup
+# Clone this repository
+$ To create a fresh project using ULTR4-NBP
+
+## clone
+$ git clone https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
+
+## cd
+$ cd ULTR4-NUXT-BOILERPLATE
+
+## install dependencies
+$ npm install
+
+## build for production and launch server
+$ npm run build
+
+## serve with hot reload at localhost:3000
+$ npm run dev
+
+$ npm run start
+
+## generate static project
+$ npm run generate
+
+# Pull this repository
+$ To work on updates and changes to the master branch ULTR4-NBP
 
 ## clone
 $ git clone https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
