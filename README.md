@@ -13,7 +13,7 @@ $ Includes
  - [LazyLoad](https://github.com/hilongjw/vue-lazyload)
  - [ESLint](https://github.com/hilongjw/vue-lazyload)
 
-#Build Setup
+# Build Setup
 
 ## install dependencies
 $ npm install
