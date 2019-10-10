@@ -13,7 +13,8 @@ $ Includes
  - [LazyLoad](https://github.com/hilongjw/vue-lazyload)
  - [ESLint](https://github.com/hilongjw/vue-lazyload)
  
-
+#
+#
 # Clone this repository
 $ To create a fresh project using ULTR4-NBP
 
@@ -37,8 +38,8 @@ $ npm run start
 ## generate static project
 $ npm run generate
 
-
-
+#
+#
 # Pull this repository
 $ To work on updates and changes to the master branch ULTR4-NBP
 
@@ -68,8 +69,8 @@ $ npm run start
 ## generate static project
 $ npm run generate
 
-
-
+#
+#
 # Update repository
 $ To commit changes to ULTR4-NBP
 
