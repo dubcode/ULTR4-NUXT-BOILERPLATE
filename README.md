@@ -24,6 +24,9 @@ $ git clone https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
 ## cd
 $ cd ULTR4-NUXT-BOILERPLATE
 
+## init
+$ git init
+
 ## install dependencies
 $ npm install
 
@@ -42,9 +45,6 @@ $ npm run generate
 #
 # Pull this repository
 $ To work on updates and changes to the master branch ULTR4-NBP
-
-## init
-$ git init https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
 
 ## pull
 $ git pull https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
