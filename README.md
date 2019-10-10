@@ -1,6 +1,17 @@
 # ULTR4 - Nuxt.js Boilerplate
 
-> A [Nuxt.js](https://nuxtjs.org/) Boilerplate. Includes [Axios](https://axios.nuxtjs.org/), [PWA](https://pwa.nuxtjs.org/), [Webfont Loader](https://www.npmjs.com/package/nuxt-webfontloader), [SASS Loader](https://nuxtjs.org/faq/pre-processors/), [SASS Resources Loader](https://www.npmjs.com/package/nuxt-sass-resources-loader), [Imagemin](https://www.npmjs.com/package/nuxt-imagemin), [LazyLoad](https://github.com/hilongjw/vue-lazyload), &amp; [ESLint](https://github.com/hilongjw/vue-lazyload)
+> A [Nuxt.js](https://nuxtjs.org/) Boilerplate. 
+
+$ Includes 
+
+ - [Axios](https://axios.nuxtjs.org/)
+ - [PWA](https://pwa.nuxtjs.org/)
+ - [Webfont Loader](https://www.npmjs.com/package/nuxt-webfontloader)
+ - [SASS Loader](https://nuxtjs.org/faq/pre-processors/)
+ - [SASS Resources Loader](https://www.npmjs.com/package/nuxt-sass-resources-loader)
+ - [Imagemin](https://www.npmjs.com/package/nuxt-imagemin)
+ - [LazyLoad](https://github.com/hilongjw/vue-lazyload)
+ - [ESLint](https://github.com/hilongjw/vue-lazyload)
 
 ## Build Setup
 
