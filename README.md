@@ -12,6 +12,7 @@ $ Includes
  - [Imagemin](https://www.npmjs.com/package/nuxt-imagemin)
  - [LazyLoad](https://github.com/hilongjw/vue-lazyload)
  - [ESLint](https://github.com/hilongjw/vue-lazyload)
+ 
 
 # Clone this repository
 $ To create a fresh project using ULTR4-NBP
@@ -35,6 +36,7 @@ $ npm run start
 
 ## generate static project
 $ npm run generate
+
 
 
 # Pull this repository
@@ -67,6 +69,7 @@ $ npm run start
 $ npm run generate
 
 
+
 # Update repository
 $ To commit changes to ULTR4-NBP
 
@@ -81,5 +84,3 @@ $ git status
 
 ## push changes to the repository
 $ git push origin master
-
-
