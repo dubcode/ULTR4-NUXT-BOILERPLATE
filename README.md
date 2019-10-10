@@ -36,14 +36,21 @@ $ npm run start
 ## generate static project
 $ npm run generate
 
+
 # Pull this repository
 $ To work on updates and changes to the master branch ULTR4-NBP
 
-## clone
-$ git clone https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
+## init
+$ git init https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
 
-## cd
-$ cd ULTR4-NUXT-BOILERPLATE
+## pull
+$ git pull https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
+
+## check status
+$ git status
+
+## add remote origin
+$ git remote add origin https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
 
 ## install dependencies
 $ npm install
@@ -58,5 +65,21 @@ $ npm run start
 
 ## generate static project
 $ npm run generate
+
+
+# Update repository
+$ To commit changes to ULTR4-NBP
+
+## stage updates
+$ git add -A
+
+## commit
+$ git commit -m “my first commit”
+
+## check status
+$ git status
+
+## push changes to the repository
+$ git push origin master
 
 
