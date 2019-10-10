@@ -1,0 +1,29 @@
+<svg 
+  version="1.1"
+  x="0px" y="0px"
+  width="216.232px"
+  height="187.262px"
+  viewBox="46.653 42.652 216.232 187.262"
+  enable-background="new 46.653 42.652 216.232 187.262"
+  xml:space="preserve"
+>
+  <line
+    fill="none"
+    stroke="#666"
+    stroke-width="4"
+    stroke-miterlimit="10"
+    x1="183.955"
+    y1="142.326"
+    x2="125.83"
+    y2="142.326"
+  />
+  <polygon
+    fill="none"
+    stroke="#666"
+    stroke-width="4"
+    stroke-miterlimit="10"
+    points="192.269,100.819 154.769,165.784 117.269,100.819"
+  />
+</svg>
+
+
