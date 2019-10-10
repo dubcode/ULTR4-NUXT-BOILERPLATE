@@ -13,7 +13,13 @@ $ Includes
  - [LazyLoad](https://github.com/hilongjw/vue-lazyload)
  - [ESLint](https://github.com/hilongjw/vue-lazyload)
 
-# Build Setup
+# Setup
+
+## clone
+$ git clone https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
+
+## cd
+$ cd ULTR4-NUXT-BOILERPLATE
 
 ## install dependencies
 $ npm install
@@ -28,3 +34,5 @@ $ npm run start
 
 ## generate static project
 $ npm run generate
+
+
