@@ -1,6 +1,6 @@
 # ULTR4 - Nuxt.js Boilerplate
 
-> A Nuxt.js Boilerplate. Features Axios, PWA, Webfont Loader, Imagemin, SASS Loader, &amp; ESLint
+> A Nuxt.js Boilerplate. Includes Axios, PWA, Webfont Loader, SASS Loader, SASS Resources Loader, Imagemin, LazyLoad, &amp; ESLint
 
 ## Build Setup
 
