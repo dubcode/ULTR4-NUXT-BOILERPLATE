@@ -2,7 +2,7 @@
 
 > A [Nuxt.js](https://nuxtjs.org/) Boilerplate. 
 
-$ Includes 
+Includes 
 
  - [Axios](https://axios.nuxtjs.org/)
  - [PWA](https://pwa.nuxtjs.org/)
@@ -16,7 +16,7 @@ $ Includes
 #
 #
 # Clone this repository
-$ To create a fresh project using ULTR4-NBP
+To create a fresh project using ULTR4-NBP
 
 ## clone
 $ git clone https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
@@ -44,7 +44,7 @@ $ npm run generate
 #
 #
 # Pull this repository
-$ To work on updates and changes to the master branch ULTR4-NBP
+To work on updates and changes to the master branch ULTR4-NBP
 
 ## pull
 $ git pull https://github.com/dubcode/ULTR4-NUXT-BOILERPLATE.git
@@ -72,7 +72,7 @@ $ npm run generate
 #
 #
 # Update repository
-$ To commit changes to ULTR4-NBP
+To commit changes to ULTR4-NBP
 
 ## stage updates
 $ git add -A
