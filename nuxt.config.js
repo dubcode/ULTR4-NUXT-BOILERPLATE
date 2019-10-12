@@ -25,7 +25,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: false,
   /*
    ** Global CSS
    */
@@ -38,9 +38,6 @@ export default {
   plugins: [
     {
       src: '~assets/js/main.js', ssr: false
-    },
-    {
-      src: '~plugins/vue-lazyload'
     }
   ],
   /*
@@ -57,8 +54,8 @@ export default {
     // SASS Loader installed - Use style lang="scss" in your components
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    'nuxt-imagemin',
     'nuxt-webfontloader',
+    'nuxt-responsive-loader',
     ['nuxt-sass-resources-loader',
       [
         '~assets/css/variables.scss',
@@ -66,6 +63,15 @@ export default {
       ]
     ]
   ],
+  // https://github.com/geeogi/nuxt-responsive-loader
+  responsiveLoader: {
+    name: 'img/[hash:7]-[width].[ext]',
+    quality: 60,
+    placeholder: true,
+    min: 320, // minimum image width generated
+    max: 1440, // maximum image width generated
+    steps: 6 // five sizes per image will be generated
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -78,6 +84,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend (config, ctx) {}
   }
 }

@@ -9,7 +9,7 @@ Includes
  - [Webfont Loader](https://www.npmjs.com/package/nuxt-webfontloader)
  - [SASS Loader](https://nuxtjs.org/faq/pre-processors/)
  - [SASS Resources Loader](https://www.npmjs.com/package/nuxt-sass-resources-loader)
- - [Imagemin](https://www.npmjs.com/package/nuxt-imagemin)
+ - [Nuxt Responsive Loader](https://github.com/geeogi/nuxt-responsive-loader)
  - [LazyLoad](https://github.com/hilongjw/vue-lazyload)
  - [ESLint](https://github.com/hilongjw/vue-lazyload)
  

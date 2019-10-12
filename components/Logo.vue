@@ -38,19 +38,17 @@
     max-width: 70px;
     width: 50%;
     line {
-      opacity: 0;
-      animation: ani__01 10s;
+      animation: ani__01 4s;
       stroke-dasharray: 200;
-      stroke-dashoffset: 200;
+      stroke-dashoffset: -400;
       animation-fill-mode: forwards;
       animation-delay: 2s;
       animation-iteration-count: infinite;
     }
     polygon {
-      opacity: 0;
-      animation: ani__02 10s;
+      animation: ani__02 4s;
       stroke-dasharray: 600;
-      stroke-dashoffset: 600;
+      stroke-dashoffset: -1200;
       animation-fill-mode: forwards;
       animation-delay: 2s;
       animation-iteration-count: infinite;
@@ -59,38 +57,30 @@
 }
 @keyframes ani__01 {
   0% {
-    opacity: 1;
-    stroke-dashoffset: -200;
+    stroke-dashoffset: -400;
   }
-  4% {
-    opacity: 1;
+  40% {
     stroke-dashoffset: 0;
   }
-  96% {
-    opacity: 1;
+  60% {
     stroke-dashoffset: 0;
   }
   100% {
-    opacity: 1;
-    stroke-dashoffset: 200;
+    stroke-dashoffset: 400;
   }
 }
 @keyframes ani__02 {
   0% {
-    opacity: 1;
-    stroke-dashoffset: -600;
+    stroke-dashoffset: -1200;
   }
-  10% {
-    opacity: 1;
+  40% {
     stroke-dashoffset: 0;
   }
-  90% {
-    opacity: 1;
+  60% {
     stroke-dashoffset: 0;
   }
   100% {
-    opacity: 1;
-    stroke-dashoffset: 600;
+    stroke-dashoffset: 1200;
   }
 }
 </style>

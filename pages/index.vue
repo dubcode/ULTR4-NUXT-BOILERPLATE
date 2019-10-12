@@ -1,169 +1,94 @@
 <template>
-  <div class="container --row">
-    <div class="--row --flex --fs">
-      <div>
-        <logo />
-        <div class="intro --row">
-          <h1 class="title">
-            ULTR4
-            <span>
-              NBP
-            </span>
-          </h1>
-          <h2 class="subtitle">
-            A WICKED NUXT.js BOILERPLATE.
-          </h2>
-        </div>
-      </div>
-      <ul>
-        <li>
-          <a href="https://axios.nuxtjs.org/" target="_blank">
-            Axios
-          </a>
-        </li>
-        <li>
-          <a href="https://pwa.nuxtjs.org/" target="_blank">
-            PWA
-          </a>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/nuxt-webfontloader" target="_blank">
-            Nuxt Webfont Loader
-          </a>
-        </li>
-        <li>
-          <a href="https://nuxtjs.org/faq/pre-processors/" target="_blank">
-            SASS Loader
-          </a>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/nuxt-sass-resources-loader" target="_blank">
-            SASS Resources Loader
-          </a>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/nuxt-imagemin" target="_blank">
-            Nuxt Imagemin
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/hilongjw/vue-lazyload" target="_blank">
-            Vue Lazyload
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/hilongjw/vue-lazyload" target="_blank">
-            ESLint
-          </a>
-        </li>
-      </ul>
-    </div>
+  <div class="--row">
+    <Intro />
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Intro from '~/components/Intro.vue'
 
 export default {
   components: {
-    Logo
+    Intro
   }
 }
 </script>
 
 <style lang="scss">
-$alpha-txt: rgba(255, 255, 255, 0.7);
-
-.container {
-  background: rgb(94,244,255);
-  background: linear-gradient(90deg, rgba(94,244,255,0.7) 0%, rgba(85,3,237,0.7) 100%);
-  padding: 0 1em;
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
-.intro {
-  opacity: 0;
-  animation: ani__intro 1.5s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-  h1 {
+body {
+  background: #fff;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: left;
+}
+.--row {
+  display: block;
+  float: left;
+  width: 100%;
+  max-width: 2560px;
+  overflow: hidden;
+  position: relative
+  ::after {
+    content: '';
     display: block;
-    font-weight: 800;
-    font-size: 3em;
-    color: $alpha-txt;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-      span {
-        font-weight: 300;
-      }
-  }
-  h2 {
-    font-weight: 300;
-    font-size: 1.4em;
-    color: $alpha-txt;
-    word-spacing: 5px;
-    margin: 0 0 2em 0;
-    text-align: center;
+    clear: both;
   }
 }
-ul {
-  position: absolute;
-  bottom: 1em;
+.--ctr{
+  padding: 0 2em;
+}
+.--fs{
+  height: 100vh;
+}
+.--flex{
   text-align: center;
-  opacity: 0;
-  transform: translateY(1em);
-  animation: ani__ul 1.5s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-    li {
-      display: inline-block;
-      line-height: 1.3em;
-      padding: 0 0 0 1em;
-        &:nth-child(1){
-          padding: 0;
-          ::before {
-              display: none;
-          }
-        }
-        ::before {
-          display: block;
-          float: left;
-          content: '';
-          -webkit-border-radius: 100%;
-          border-radius: 100%;
-          height: 6px;
-          transform: translateY(0.47em);
-          width: 6px;
-          margin-right: 1em;
-          background-color: $alpha-txt;
-        }
-        a {
-          color: $alpha-txt;
-          display: block;
-          font-size: 1.2em;
-          line-height: 1.3em;
-          text-decoration: none;
-            :hover {
-              text-decoration: underline;
-            }
-        }
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@keyframes ani__intro {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s
 }
-@keyframes ani__ul {
-  from {
-    opacity: 0;
-    transform: translateY(1em);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.page-enter,
+.page-leave-active {
+  opacity: 0
 }
 </style>
