@@ -22,7 +22,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^3.4.3",
     "nuxt-imagemin": "^1.0.0",
     "nuxt-responsive-loader": "^1.0.4",
     "nuxt-sass-resources-loader": "^2.0.5",
